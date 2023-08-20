@@ -23,7 +23,7 @@ body {
 
 .pronunciation {
   font-style: italic;
-  margin-bottom: 20px;   
+  margin-bottom: 20px;  
 }
 
 .meaning {
@@ -31,15 +31,15 @@ body {
   margin-bottom: 20px;
 }
 
-.sentence,
-.sentence-pronunciation,  
+.sentence, 
+.sentence-pronunciation,
 .sentence-meaning {
   font-size: 16px;
   margin-bottom: 10px;
 }
 
 .controls {
-  margin-top: 20px;   
+  margin-top: 20px;  
 }
 
 button {
@@ -56,25 +56,6 @@ button:hover {
   background-color: #0062cc;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 500px) {
-
-  .word {
-    font-size: 40px;
-  }
-  
-  .meaning {
-    font-size: 24px;
-  }
-
-  .sentence,
-  .sentence-pronunciation,
-  .sentence-meaning {
-    font-size: 20px;
-  }
-
-  .controls button {
-    font-size: 20px;
-  }
-  
+button:disabled {
+  background-color: #aaa;
 }
