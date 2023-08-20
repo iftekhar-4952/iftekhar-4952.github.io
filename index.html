@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Learn Japanese MPV</title>
-  <link rel="stylesheet" href="./style.css">
-
+  <title>Japanese Vocabulary</title>
+  
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!-- index.html -->
 
-<div id="app"></div>
-<!-- partial -->
-  <script type="module" src="./script.js"></script>
+  <div class="container">
+
+    <div class="card">
+      <div class="word"></div>
+      <div class="pronunciation"></div>
+      <div class="meaning"></div>
+
+      <div class="sentence"></div>
+      <div class="sentence-pronunciation"></div>
+      <div class="sentence-meaning"></div>
+    </div>
+
+    <div class="controls">
+      <button id="prev">Previous</button>
+      <button id="next">Next</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
