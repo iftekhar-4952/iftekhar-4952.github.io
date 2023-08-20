@@ -33,11 +33,16 @@ body {
 }
 
 .sentence
-{font-size: 32px;}
+{
+  font-size: 32px;
+}
 .sentence-pronunciation
-{font-size: 28px;}
-.sentence-meaning {
-  {font-size: 30px;}
+{
+  font-size: 28px;
+}
+.sentence-meaning 
+{
+  {font-size: 30px;
   margin-bottom: 10px;
 }
 
