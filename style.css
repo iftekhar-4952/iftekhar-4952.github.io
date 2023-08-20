@@ -16,25 +16,28 @@ body {
 }
 
 .word {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .pronunciation {
   font-style: italic;
-  margin-bottom: 20px;  
+  margin-bottom: 20px; 
+  font-size: 30px;
 }
 
 .meaning {
-  font-size: 18px;
+  font-size: 34px;
   margin-bottom: 20px;
 }
 
 .sentence, 
+font-size: 32px;
 .sentence-pronunciation,
+font-size: 28px;
 .sentence-meaning {
-  font-size: 16px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
