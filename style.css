@@ -16,38 +16,30 @@ body {
 }
 
 .word {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .pronunciation {
   font-style: italic;
-  margin-bottom: 20px; 
-  font-size: 30px;
+  margin-bottom: 20px;   
 }
 
 .meaning {
-  font-size: 34px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
-.sentence
-{
-  font-size: 32px;
-}
-.sentence-pronunciation
-{
-  font-size: 28px;
-}
-.sentence-meaning 
-{
-  {font-size: 30px;
+.sentence,
+.sentence-pronunciation,  
+.sentence-meaning {
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 .controls {
-  margin-top: 20px;  
+  margin-top: 20px;   
 }
 
 button {
@@ -64,6 +56,25 @@ button:hover {
   background-color: #0062cc;
 }
 
-button:disabled {
-  background-color: #aaa;
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+
+  .word {
+    font-size: 40px;
+  }
+  
+  .meaning {
+    font-size: 24px;
+  }
+
+  .sentence,
+  .sentence-pronunciation,
+  .sentence-meaning {
+    font-size: 20px;
+  }
+
+  .controls button {
+    font-size: 20px;
+  }
+  
 }
