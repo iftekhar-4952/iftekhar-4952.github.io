@@ -148,8 +148,8 @@ const words = [
     pronunciation: 'ichiji', 
     meaning: '1 o\'clock',
     sentence: '明日の会議は一じ半からです。',
-    sentence_pronunciation: 'Ashita no kaigi wa ichi-ji han kara desu.',
-    sentence_meaning: 'Tomorrow's meeting starts at 1:30.'
+    sentence_pronunciation: 'Kaigi wa ichi-ji han kara desu.',
+    sentence_meaning: 'The meeting starts at 1:30.'
   },
   {
     word: 'はん',
