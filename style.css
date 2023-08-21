@@ -1,23 +1,61 @@
-/* styles.css */
-
-.card {
-
-padding: 10px;
-
-border: 1px solid #ccc;
-
+body {
+  font-family: Arial, sans-serif;
 }
 
-.divider {
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-border-bottom: 1px solid #ccc;
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
 
-margin: 10px 0;
+.word {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
+.pronunciation {
+  font-style: italic;
+  margin-bottom: 20px;  
+}
+
+.meaning {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sentence, 
+.sentence-pronunciation,
+.sentence-meaning {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.controls {
+  margin-top: 20px;  
 }
 
 button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
 
-padding: 5px 10px;
+button:hover {
+  background-color: #0062cc;
+}
 
+button:disabled {
+  background-color: #aaa;
 }
